@@ -10,11 +10,11 @@ const cors = require('cors')
 // app.use(cors(corsOptions))
 
 const pool = createPool({
-    host: '클라우드타입도메인',
-    user: '로그인아디',
-    password: '비번',
-    port: '포트',
-    database: '스키마이름', //mySQL프로젝트 이름이 아니고, 프로젝트 안에 SCHEMAS안에 있는 root 이름을 작성해야함/////
+    host: 'https://admin-mariadb-luj2cle828k8l.sel3.cloudtype.app',
+    user: 'root',
+    password: '12345',
+    port: '3306',
+    database: 'test', //mySQL프로젝트 이름이 아니고, 프로젝트 안에 SCHEMAS안에 있는 root 이름을 작성해야함/////
 });
 
 pool.getConnection(() => {
