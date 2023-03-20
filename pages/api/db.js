@@ -10,7 +10,7 @@ const cors = require('cors')
 // app.use(cors(corsOptions))
 
 const pool = createPool({
-    host: 'https://admin-mariadb-luj2cle828k8l.sel3.cloudtype.app',
+    host: 'https://port-0-reproject-nx562olfglazkc.sel3.cloudtype.app',
     user: 'root',
     password: '12345',
     port: '3306',
