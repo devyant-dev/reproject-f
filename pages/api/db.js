@@ -14,7 +14,7 @@ const pool = createPool({
     user: 'root',
     password: '1234',
     port: 30056,
-    database: 'test', //mySQL프로젝트 이름이 아니고, 프로젝트 안에 SCHEMAS안에 있는 root 이름을 작성해야함/
+    database: 'test', //mySQL프로젝트 이름이 아니고, 프로젝트 안에 SCHEMAS안에 있는 root 이름을 작성해야함/////
 });
 
 pool.getConnection(() => {
