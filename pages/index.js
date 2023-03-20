@@ -16,10 +16,10 @@ export default function Home() {
   const { setUserLogin } = useContext(TeamC);
   const router = useRouter();
 
-  function formLogin(e) {}
+  function formLogin(e) { }
   const [modalOpen, setModalOpen] = useState(false);
 
-    const modalVariants = {
+  const modalVariants = {
     hidden: { opacity: 0, scale: 0.9 },
     visible: { opacity: 1, scale: 1 },
   };
@@ -137,9 +137,9 @@ export default function Home() {
             </button>
           </div>
         </div>
-        
+
         <div className={modalOpen ? styles.modal : styles.modalHidden}>
-         
+
           <button
             className={styles.modalCloseButton}
             onClick={() => {
